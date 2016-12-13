@@ -65,8 +65,6 @@ Entry Bus Bus
 Entry Bus Bus
 	3050 2850 3150 2950
 Wire Bus Line
-	2550 3350 7350 3350
-Wire Bus Line
 	3150 2950 3150 3350
 Text Label 3050 2850 0    60   ~ 0
 GND
@@ -160,29 +158,13 @@ Text Label 6050 3250 0    60   ~ 0
 D-
 Text Label 5950 3250 0    60   ~ 0
 VCC
-Entry Bus Bus
-	6950 3250 7050 3350
-Entry Bus Bus
-	7050 3250 7150 3350
-Entry Bus Bus
-	7150 3250 7250 3350
-Entry Bus Bus
-	7250 3250 7350 3350
-Text Label 7250 3250 0    60   ~ 0
-GND
-Text Label 7150 3250 0    60   ~ 0
-D+
-Text Label 7050 3250 0    60   ~ 0
-D-
-Text Label 6950 3250 0    60   ~ 0
-VCC
 $Comp
 L TEST_1P W1
 U 1 1 584DA42E
 P 5950 3250
 F 0 "W1" H 5950 3520 50  0000 C CNN
 F 1 "TEST_1P" H 5950 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 6150 3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 6150 3250 50  0001 C CNN
 F 3 "" H 6150 3250 50  0000 C CNN
 	1    5950 3250
 	1    0    0    -1  
@@ -193,7 +175,7 @@ U 1 1 584DA455
 P 6050 3250
 F 0 "W2" H 6050 3520 50  0000 C CNN
 F 1 "TEST_1P" H 6050 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 6250 3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 6250 3250 50  0001 C CNN
 F 3 "" H 6250 3250 50  0000 C CNN
 	1    6050 3250
 	1    0    0    -1  
@@ -204,7 +186,7 @@ U 1 1 584DA478
 P 6150 3250
 F 0 "W3" H 6150 3520 50  0000 C CNN
 F 1 "TEST_1P" H 6150 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 6350 3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 6350 3250 50  0001 C CNN
 F 3 "" H 6350 3250 50  0000 C CNN
 	1    6150 3250
 	1    0    0    -1  
@@ -215,53 +197,11 @@ U 1 1 584DA49A
 P 6250 3250
 F 0 "W4" H 6250 3520 50  0000 C CNN
 F 1 "TEST_1P" H 6250 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 6450 3250 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad_Via" H 6450 3250 50  0001 C CNN
 F 3 "" H 6450 3250 50  0000 C CNN
 	1    6250 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L TEST_1P W5
-U 1 1 584DA4BF
-P 6950 3250
-F 0 "W5" H 6950 3520 50  0000 C CNN
-F 1 "TEST_1P" H 6950 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 7150 3250 50  0001 C CNN
-F 3 "" H 7150 3250 50  0000 C CNN
-	1    6950 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W6
-U 1 1 584DA505
-P 7050 3250
-F 0 "W6" H 7050 3520 50  0000 C CNN
-F 1 "TEST_1P" H 7050 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 7250 3250 50  0001 C CNN
-F 3 "" H 7250 3250 50  0000 C CNN
-	1    7050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W7
-U 1 1 584DA530
-P 7150 3250
-F 0 "W7" H 7150 3520 50  0000 C CNN
-F 1 "TEST_1P" H 7150 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 7350 3250 50  0001 C CNN
-F 3 "" H 7350 3250 50  0000 C CNN
-	1    7150 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W8
-U 1 1 584DA55E
-P 7250 3250
-F 0 "W8" H 7250 3520 50  0000 C CNN
-F 1 "TEST_1P" H 7250 3450 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 7450 3250 50  0001 C CNN
-F 3 "" H 7450 3250 50  0000 C CNN
-	1    7250 3250
-	1    0    0    -1  
-$EndComp
+Wire Bus Line
+	2550 3350 6350 3350
 $EndSCHEMATC
